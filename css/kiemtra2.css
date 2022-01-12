@@ -1,0 +1,38 @@
+.menu ul{
+   display: flex;
+   padding-top: 3px;
+
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 40px;
+    color: white;
+    
+}
+.menu ul li a{
+    color: white;
+  text-decoration: none;
+  padding: 40px 20px;
+  font-size: 14pt;
+  font-family: 'Poppins', sans-serif;
+}
+.menu{
+    height: 70px;
+    background-color: #4f2f8a;
+    margin-top: 143px;
+    padding-top: 20px;
+    width: 1772px;
+    padding-left: 150px;
+    margin-left: -10px;
+}
+.hinhnen img{
+    width: 1920px;
+    margin-left: -10px;
+}
+.menu ul li a.active{
+    background: #f16725;
+    color: white;
+}
+.menu ul li a:hover{
+    background-color: #f16725;  
+}
